@@ -1,0 +1,29 @@
+json Server Creation In Node
+----------------------------
+
+- node server create  - npm init
+- install json server - npm i json-server
+
+-> nodemon - when we run the file using nodemon file will get automatic recompilation 
+          (when we update any code we will get auto rerun and the code will always runs didnt stop)
+
+
+=> Require is insted of import in server side
+
+-> middlewares - it controls the requests (api requests )
+   -----------------------------------------------------
+    middlewares have the ability to control all server request in a server 
+    -if we apply middlewares in a server,the middleware will work before the request 
+    -middleware is used to convert json type file into js 
+
+
+cors - Cross Origin Resourse Sharing
+------------------------------------
+
+- used for connecting front-end and server(command for install -- npm i cors)
+
+
+-->json database  is using so json server is using
+-->when mongo db data base is using express server is using
+
+==>uniqid -- used to mention id's to the objects (code to install:- npm i uniqid)
